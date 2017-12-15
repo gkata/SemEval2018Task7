@@ -17,14 +17,16 @@ Subtask 2 Relation extraction and classification on clean data
         1.1.relations.txt  relations for training data (same data as task 1.1)
 
 
+The offline version of the scorer for Semeval 2018 Task 7.
+
     semeval2018_task7_scorer-v1.1.pl  evaluation script for Semeval 2018 Task 7
    
-    This is the offline version of the scorer for Semeval 2018 Task 7.
     Usage: perl semeval2018_task7_scorer-v1.1.pl RESULTS_FILE KEY_FILE.
     Unlike in the codalab version, you don't need to specify the subtask number on the first line: the results file will be compared to the key file given as input.
 
+You can evaluate your results on part of the training data using the CodaLab interface. 50 abstracts were selected for 'testing' in each subtask, you need to submit your predictions for these abstracts in a zipped file by clicking on 'Participate' on the CodaLab site.
+
     training-eval.txt  the online evaluation on CodaLab uses these 50 abstracts, selected from the trainaing data for each subtask.
 
-    You can evaluate your results on part of the training data using the CodaLab interface. 50 abstracts were selected for 'testing' in each subtask, you need to submit your predictions for these abstracts in a zipped file by clicking on 'Participate' on the CodaLab site.
 
 
